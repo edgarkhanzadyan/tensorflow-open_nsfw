@@ -23,7 +23,7 @@ class OpenNsfwModel:
         self.weights = {}
         self.bn_epsilon = 1e-5  # Default used by Caffe
 
-    def build(self, weights_path="open_nsfw-weights.npy",
+    def build(self, weights_path="./data/open_nsfw-weights.npy",
               input_type=InputType.TENSOR):
 
         self.weights = np.load(weights_path, encoding="latin1").item()

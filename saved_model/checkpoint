@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/edgarkhanzadian/model_convert/tensorflow-open_nsfw/saved_model/data-all"
+all_model_checkpoint_paths: "/Users/edgarkhanzadian/model_convert/tensorflow-open_nsfw/saved_model/data-all"
